@@ -24,11 +24,6 @@
 - Speech-to-text and text-to-speech interaction using **pygame** and **edge-tts**.  
 - GUI built with **PyQt5** for an interactive desktop experience.  
 
-### 5. Additional Features
-- Translate text using **mtranslate**.  
-- Beautiful terminal outputs with **rich**.  
-- Web scraping and HTTP requests via **bs4** and **requests**.  
-
 ---
 
 ## 📦 Requirements
@@ -69,13 +64,16 @@ cd JARVIS
 pip install -r requirements.txt
 
 ### **3️⃣ Set API Keys**
-Create or edit Backend/.env:
+Create or edit **Backend/.env**:
 GroqAPIKey=YOUR_GROQ_KEY
 CohereAPIKey=YOUR_COHERE_KEY
 HuggingFaceAPIKey=YOUR_HUGGINGFACE_KEY
 
 ### **4️⃣ Run JARVIS**
 python main.py
+
+
+
 
 
 
