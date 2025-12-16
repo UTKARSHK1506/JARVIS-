@@ -64,12 +64,16 @@ pip install -r requirements.txt
 
 ### **3️⃣ Set API Keys**
 Create or edit **Backend/.env**:
+
+```env
 GroqAPIKey=YOUR_GROQ_KEY
 CohereAPIKey=YOUR_COHERE_KEY
 HuggingFaceAPIKey=YOUR_HUGGINGFACE_KEY
-Username = YOUR_USERNAME
-AssistantName = YOUR_ASSISTANTNAME
-AssistantVoice = YOUR_ASSISTANTVOICE
+Username=YOUR_USERNAME
+AssistantName=YOUR_ASSISTANTNAME
+AssistantVoice=YOUR_ASSISTANTVOICE
+```
+
 
 ### **4️⃣ Run JARVIS**
 python main.py
