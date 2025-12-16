@@ -58,7 +58,6 @@
 
 ### **1️⃣ Clone the Repository**
 git clone https://github.com/UTKARSHK1506/JARVIS.git
-cd JARVIS
 
 ### **2️⃣ Install Dependencies**
 pip install -r requirements.txt
@@ -68,6 +67,9 @@ Create or edit **Backend/.env**:
 GroqAPIKey=YOUR_GROQ_KEY
 CohereAPIKey=YOUR_COHERE_KEY
 HuggingFaceAPIKey=YOUR_HUGGINGFACE_KEY
+Username = YOUR_USERNAME
+AssistantName = YOUR_ASSISTANTNAME
+AssistantVoice = YOUR_ASSISTANTVOICE
 
 ### **4️⃣ Run JARVIS**
 python main.py
