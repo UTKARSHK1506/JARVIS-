@@ -60,7 +60,7 @@
 git clone https://github.com/UTKARSHK1506/JARVIS.git
 
 ### **2️⃣ Install Dependencies**
-pip install -r requirements.txt
+pip install -r Requirements.txt
 
 ### **3️⃣ Set API Keys**
 Create or edit **Backend/.env**:
